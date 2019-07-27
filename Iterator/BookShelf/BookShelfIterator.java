@@ -1,5 +1,5 @@
 class BookShelfIterator implements Iterator {
-    private BookShelf bookshelf;// railsでいう
+    private BookShelf bookshelf;// railsでいうhas_one関係
     int index;
 
     public BookShelfIterator(BookShelf bookshelf) {
