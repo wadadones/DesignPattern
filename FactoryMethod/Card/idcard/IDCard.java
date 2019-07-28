@@ -4,7 +4,7 @@ import framework.*;
 public class IDCard extends Product {
     private String owner;
     private int cardNum;
-    IDCard(String owner, int cardNum) { //idcard内からしか呼び出せない。つまりFactoryを経由しないといけない
+    IDCard(String owner, int cardNum) { //idcard内からしか呼び出せないようにする。つまりFactoryを経由しないといけない
         System.out.println("id:"+ cardNum +" "+ owner + "のカードを作ります");
         this.owner = owner;
         this.cardNum = cardNum;
